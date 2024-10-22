@@ -1,4 +1,8 @@
 ## Steps to Config Network in This Case
+<div align="center">
+  <img src="https://github.com/40021441054102/Network-Lab/blob/main/Exercises/ex02/network.png" width="90%"/>
+</div>
+
 There are two ways, first is to do it by terminal interface, second is to do it by GUI Windows
 
 ### Terminal Interface
