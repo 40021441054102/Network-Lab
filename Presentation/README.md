@@ -1,6 +1,11 @@
 ## Network-Lab Presentation, [Wireshark](https://www.wireshark.org/download.html)
 Presentation of Network-Lab Class by Ramtin Kosari, 11 November 2024
 
+<div align="center">
+   <img src="https://github.com/40021441054102/Network-Lab/blob/main/Presentation/Assets/1.png" width="42%"/>
+   <img src="https://github.com/40021441054102/Network-Lab/blob/main/Presentation/Assets/3.png" width="42%"/>
+</div>
+
 ## Wireshark
 Wireshark is a free open source network packet analyzer and my presentaton was to introduce wireshark with 6 defined scenarios to see use cases of this fantastic app, Also i talked about filtering and searching in it.
 
@@ -37,7 +42,11 @@ Wireshark is a free open source network packet analyzer and my presentaton was t
    5. Remember that the both devices must be connected to same router or network connection. 
    6. Now the chatbot is active, you can send messages in each device and the other device receives it.
    7. While sending messages you can use ```TCP Filtering``` in your ```WIFI Interface``` by writing ```tcp``` in Wireshark's filter bar and you can see send or received packages.
-   8. Also you can filter by ip address, for example you want to check packets of first device ip (e.g., 192.168.0.101), you can filter it by writing ```ip.addr == 192.168.0.101``` and you can see all related packets.
+   8. Also you can filter by ip address, for example you want to check packets of first device ip (e.g., 192.168.0.100), you can filter it by writing ```ip.addr == 192.168.0.100``` and you can see all related packets.
+   <div align="center">
+      <img src="https://github.com/40021441054102/Network-Lab/blob/main/Presentation/Assets/2.png" width="42%"/>
+      <img src="https://github.com/40021441054102/Network-Lab/blob/main/Presentation/Assets/4.png" width="51%"/>
+   </div>
 5. DOS Attack Simulation
    1. In this scenario we simulate simple ```DOS Attack```, First you need to open Wireshark on ```Local Host Interface (Usually 'lo')```.
    2. Then you must run attacker by executing command ```python3 main.py```.
