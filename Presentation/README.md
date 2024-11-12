@@ -45,7 +45,7 @@ Wireshark is a free open source network packet analyzer and my presentaton was t
    8. Also you can filter by ip address, for example you want to check packets of first device ip (e.g., 192.168.0.100), you can filter it by writing ```ip.addr == 192.168.0.100``` and you can see all related packets.
    <div align="center">
       <img src="https://github.com/40021441054102/Network-Lab/blob/main/Presentation/Assets/2.png" width="42%"/>
-      <img src="https://github.com/40021441054102/Network-Lab/blob/main/Presentation/Assets/4.png" width="51%"/>
+      <img src="https://github.com/40021441054102/Network-Lab/blob/main/Presentation/Assets/4.png" width="51.5%"/>
    </div>
 5. DOS Attack Simulation
    1. In this scenario we simulate simple ```DOS Attack```, First you need to open Wireshark on ```Local Host Interface (Usually 'lo')```.
